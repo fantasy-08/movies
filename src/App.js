@@ -4,7 +4,7 @@ import Results from './Components/Results';
 import Moreinfo from './Components/moreinfo';
 import axios from "axios";
 function App() {
-  const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885";
+  const apiurl = "https://www.omdbapi.com/?apikey=dfe6d885";
   const [state,setState] = useState({
     s:"",//search query
     results:[],
